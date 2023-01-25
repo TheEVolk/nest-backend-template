@@ -3,8 +3,8 @@ import Response from './response.class.js';
 
 export default class ResponseWithItems<T = unknown> extends Response {
   @ApiProperty()
-  items: T[];
+  public items: T[];
 
   @ApiProperty()
-  total: number;
+  public total: number;
 }

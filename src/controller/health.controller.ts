@@ -5,7 +5,7 @@ import { ApiOperation } from '@nestjs/swagger';
 export default class HealthController {
   @Get()
   @ApiOperation({
-    summary: 'Only returns code 200'
+    summary: 'Only returns code 200',
   })
   public async handler() {}
 }

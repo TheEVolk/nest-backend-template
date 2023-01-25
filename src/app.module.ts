@@ -12,9 +12,7 @@ import HealthController from './controller/health.controller';
     }),
     // Paste modules
   ],
-  controllers: [
-    HealthController
-  ],
+  controllers: [HealthController],
   providers: [],
 })
 export class AppModule {}
